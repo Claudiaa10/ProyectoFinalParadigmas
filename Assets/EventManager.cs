@@ -11,11 +11,17 @@ public static class EventManager
     public static event UnityAction PlayerHitTeapot;
     public static event UnityAction PlayerSurvivedObstacle;
     public static event UnityAction LevelComplete;
+    public static event UnityAction RestartGame;
 
     // Método para invocar el evento cuando el jugador colisiona con un Hat
     public static void OnPlayerHitHat()
     {
         PlayerHitHat?.Invoke();
+    }
+
+    public static void OnRestartGame() 
+    { 
+        RestartGame?.Invoke();
     }
 
     // Método para invocar el evento cuando el jugador colisiona con un Teapot

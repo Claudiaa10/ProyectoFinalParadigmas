@@ -10,9 +10,10 @@ public class GameManager : MonoBehaviour
     private int stage = 1;
     private int lives = 1;
     private int points = 0;
-    
+
     private void Awake()
     {
+        Debug.Log("GameManager inicializado.");
         if (Instance != null)
         {
             Destroy(gameObject);
@@ -34,24 +35,24 @@ public class GameManager : MonoBehaviour
     {
         points = 0;
         lives = 1;
+        Debug.Log("Iniciando nueva partida...");
         if (gameOverScreen != null)
         {
-            gameOverScreen.gameObject.SetActive(false); // Asegúrate de que el Canvas esté desactivado al inicio
+            Debug.Log($"Estado actual del Canvas GameOver: {gameOverScreen.gameObject.activeSelf}");
+            gameOverScreen.gameObject.SetActive(false);
+            Debug.Log($"Canvas GameOver desactivado: {gameOverScreen.gameObject.activeSelf}");
         }
+        Time.timeScale = 1;
     }
+
     public void GameOver()
     {
         Debug.Log("¡Game Over!");
+        Time.timeScale = 0;
         if (gameOverScreen != null)
         {
             gameOverScreen.Setup(points); // Llama a Setup para mostrar la pantalla de Game Over con los puntos
         }
-    }
-
-        public void AddLife()
-    {
-        lives++;
-        Debug.Log($"Vidas restantes: {lives}");
     }
 
     public void AddPoint()
@@ -59,10 +60,10 @@ public class GameManager : MonoBehaviour
         points++;
         Debug.Log($"Puntos: {points}");
     }
-   
+
     public void RemoveLife()
     {
-        lives --;
+        lives--;
         Debug.Log($"Vidas restantes: {lives}");
 
         if (lives <= 0)
@@ -75,12 +76,21 @@ public class GameManager : MonoBehaviour
     {
         EventManager.PlayerHitHat += HandlePlayerHitHat;
         EventManager.PlayerHitTeapot += HandlePlayerHitTeapot;
+        EventManager.RestartGame += HandleRestart;
+        Debug.Log("Suscrito a eventos en OnEnable.");
     }
 
     private void OnDisable()
     {
         EventManager.PlayerHitHat -= HandlePlayerHitHat;
         EventManager.PlayerHitTeapot -= HandlePlayerHitTeapot;
+        EventManager.RestartGame -= HandleRestart;
+    }
+
+    private void HandleRestart()
+    {
+        Debug.Log("Restarting");
+        RestartGame();
     }
 
     private void HandlePlayerHitHat()
@@ -92,18 +102,31 @@ public class GameManager : MonoBehaviour
     private void HandlePlayerHitTeapot()
     {
         Debug.Log("El jugador ha colisionado con un Teapot.");
-        AddLife();
-    }
-
-    private void HandlePlayerDodgeHat()
-    {
-        Debug.Log("El jugador ha esquivado el sombrero.");
         AddPoint();
     }
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Reiniciando el juego...");
+        Time.timeScale = 1;
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.LoadScene("Scene1");
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        gameOverScreen = FindObjectOfType<GameOverScreen>();
+        if (gameOverScreen != null)
+        {
+            Debug.Log("GameOverScreen reasignado correctamente.");
+        }
+        else
+        {
+            Debug.LogError("No se encontró un objeto GameOverScreen en la escena.");
+        }
+        NewGame();
+
+        Debug.Log("Juego reiniciado correctamente.");
     }
 }
-

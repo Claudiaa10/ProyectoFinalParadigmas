@@ -30,7 +30,8 @@ public class GameOverScreen : MonoBehaviour
 
     public void RestartButton()
     {
-        SceneManager.LoadScene("Scene1");
+        Debug.Log("pressed");
+        EventManager.OnRestartGame();
     }
 
     public void ExitButton()
