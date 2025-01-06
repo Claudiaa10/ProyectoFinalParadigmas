@@ -1,75 +1,48 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.UIElements;
 using UnityEngine;
 
-public class playerMovement : MonoBehaviour
-   
+public class PlayerJump : MonoBehaviour
 {
-    public Rigidbody2D body;
-    // Start is called before the first frame update
-    public float groundSpeed;
-    public float jumpSpeed;
-    public bool grounded;
-    [Range(0f, 1f)]
-    public float groundDecay;
-    public BoxCollider2D groundCheck;
-    public LayerMask groundMask;
-
-    public float horizontalMove;
+    public float jumpForce; 
+    public Vector2 boxSize;
     public float verticalMove;
+    public float castDistance; 
+    public LayerMask groundLayer;
 
+    private Rigidbody2D body; // Referencia al Rigidbody2D.
+    private bool grounded; // Indica si el jugador está tocando el suelo.
 
-    // Update is called once per frame
-
-   void Start()
+    void Start()
     {
-        
+        body = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
+        // Actualiza el estado de grounded.
+        grounded = IsGrounded();
 
-        GetInput();
-        MoveWithInput();
-    }
-
-    void MoveWithInput()
-    {
-        Vector2 vector2 = new Vector2(horizontalMove, verticalMove);
-        if (Mathf.Abs(horizontalMove) > 0)
+        verticalMove = Input.GetAxis("Vertical");
+        if (verticalMove > 0 && grounded)
         {
-            body.velocity = new Vector2(horizontalMove * groundSpeed, body.velocity.y);
-            float direction = Mathf.Sign(horizontalMove);
-            transform.localScale = new Vector3(direction, 1, 1);
-        }
-        if (Mathf.Abs(verticalMove) > 0 && grounded)
-        {
-            body.velocity = new Vector2(body.velocity.x, verticalMove * jumpSpeed);
-
+            Jump();
         }
     }
-    void GetInput()
+
+    private void Jump()
     {
-       horizontalMove = Input.GetAxis("Horizontal");
-       verticalMove = Input.GetAxis("Vertical");
-    }
-    private void FixedUpdate()
-    {
-        CheckGround();
-        ApplyFriction();
+        body.velocity = new Vector2(body.velocity.x, jumpForce);
     }
 
-    void CheckGround()
+    public bool IsGrounded()
     {
-        grounded = Physics2D.OverlapAreaAll(groundCheck.bounds.min, groundCheck.bounds.max).Length >0;
-    }
-
-    void ApplyFriction()
-    {
-
-        if (grounded && horizontalMove == 0 && verticalMove == 0)
+        // Usa Physics2D.BoxCast para detectar si el jugador está tocando el suelo.
+        if (Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer))
         {
-            body.velocity *= groundDecay;
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 }
