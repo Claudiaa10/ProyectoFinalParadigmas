@@ -2,18 +2,20 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public float speed = 3f; // Velocidad del movimiento del obstáculo
+    public float speed = 3f;
+    public float maxDist = 10f;
 
     private void Update()
     {
-        // Movimiento hacia la izquierda
-        transform.Translate(Vector3.left * speed * Time.deltaTime);
-
-        // Destruir el obstáculo si sale de la pantalla
-        if (transform.position.x < -10f)
-        {
-            Destroy(gameObject);
-        }
+        ObstacleMovement();
+       
     }
+
+    private void ObstacleMovement()
+    {
+        transform.Translate(Vector3.left * speed * Time.deltaTime);
+    }
+  
+
 }
  

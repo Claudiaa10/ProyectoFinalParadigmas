@@ -2,5 +2,7 @@ using UnityEngine;
 
 public abstract class ObstacleFactory : MonoBehaviour
 {
-    public abstract Obstacle CreateObstacle();
+    [SerializeField] private Obstacle obstaclePrefab;
+    public abstract Obstacle CreateObstacle(Vector3 spawnPosition);
+   
 }

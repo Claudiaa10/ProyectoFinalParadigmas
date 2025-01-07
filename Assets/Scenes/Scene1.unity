@@ -361,48 +361,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516339194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c30ac2413ccdb94c98c0c83c0e8a0b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hatPrefab: {fileID: 7266314480533435772, guid: f61a1489be942ba45a52130e64520e1e, type: 3}
-  teapotPrefab: {fileID: 7714002823755074157, guid: d3129831f445943459dafd57354ca374, type: 3}
+  teapotFactory: {fileID: 1365262937}
+  hatFactory: {fileID: 646453249}
   spawnRate: 7
   spawnX: 5
   startDelay: 3
-  Height: 1.5
---- !u!1 &553019156
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 553019158}
-  m_Layer: 0
-  m_Name: ObstacleFactory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &553019158
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 553019156}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5149145, y: 1.2257589, z: -0.030245095}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  height: 1
+  durationTime: 10
 --- !u!114 &637300126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,6 +401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 646453248}
+  - component: {fileID: 646453249}
   m_Layer: 0
   m_Name: HatFactory
   m_TagString: Untagged
@@ -453,6 +424,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &646453249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646453246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc41dc14e2c719542adbf013379360af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePrefab: {fileID: 1055942577}
+  hatPrefab: {fileID: 0}
 --- !u!1 &785456507
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +889,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1055942576}
+  - component: {fileID: 1055942577}
+  - component: {fileID: 1055942578}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -920,12 +907,45 @@ Transform:
   m_GameObject: {fileID: 1055942574}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5149145, y: 1.2257589, z: -0.030245095}
+  m_LocalPosition: {x: 12.38, y: 1.01, z: -0.030245095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1055942577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055942574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31989de8fe024d4cbd39d7595239c16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  maxDist: 10
+--- !u!114 &1055942578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055942574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c30ac2413ccdb94c98c0c83c0e8a0b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teapotFactory: {fileID: 1365262937}
+  hatFactory: {fileID: 646453249}
+  spawnRate: 5
+  spawnX: 10
+  startDelay: 3
+  height: 1
+  durationTime: 10
 --- !u!1 &1109998598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1353,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338834331}
   m_CullTransparentMesh: 1
+--- !u!1 &1365262936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1365262938}
+  - component: {fileID: 1365262937}
+  m_Layer: 0
+  m_Name: TeapotFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1365262937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365262936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc080e5445adad34a86dfd1f70db60bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePrefab: {fileID: 1055942577}
+  teapotPrefab: {fileID: 0}
+--- !u!4 &1365262938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365262936}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.822948, y: 4.839753, z: 2.322569}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1399811096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,37 +1532,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399811096}
   m_CullTransparentMesh: 1
---- !u!1 &1400993546
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1400993548}
-  m_Layer: 0
-  m_Name: TeapotFactory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1400993548
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400993546}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5149145, y: 1.2257589, z: -0.030245095}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503487436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,11 +2555,10 @@ SceneRoots:
   - {fileID: 1023066355}
   - {fileID: 785456509}
   - {fileID: 1109998600}
-  - {fileID: 553019158}
   - {fileID: 516339196}
   - {fileID: 1055942576}
-  - {fileID: 1400993548}
   - {fileID: 646453248}
   - {fileID: 1588776081}
   - {fileID: 1632953216}
   - {fileID: 1538045850}
+  - {fileID: 1365262938}

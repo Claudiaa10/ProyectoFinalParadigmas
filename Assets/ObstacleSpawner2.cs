@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class ObstacleSpawner2 : MonoBehaviour
 {
-    [Header("Prefabs de obstáculos")]
-    public GameObject hatPrefab;      
-    public GameObject teapotPrefab;   
+    [Header("Fabricas")]
+    public TeapotFactory teapotFactory;      
+    public HatFactory hatFactory;   
 
     [Header("Parámetros de generación")]
     public float spawnRate = 2f;
     public float spawnX = 5f;
     public float startDelay = 3f;
-    public float Height = 1f;
+    public float height = 1f;
+    public float durationTime = 10f;
 
     private void Start()
     {
@@ -19,23 +20,20 @@ public class ObstacleSpawner2 : MonoBehaviour
 
     private void Spawn()
     {
-        GameObject selectedPrefab;
+        Vector3 spawnVector = new Vector3(spawnX,height,0f);
+        Obstacle newObstacle;
 
         if (Random.Range(0f, 1f) > 0.4f)
         {
-            
-            selectedPrefab = teapotPrefab;
+
+            newObstacle = teapotFactory.CreateObstacle(spawnVector);
         }
         else
         {
-            
-            selectedPrefab = hatPrefab;
+
+            newObstacle = hatFactory.CreateObstacle(spawnVector);
         }
-
-        GameObject newObstacle = Instantiate(selectedPrefab);
-        newObstacle.transform.position = new Vector3(spawnX, Height, 0f);
-
-        Destroy(newObstacle, 10f);
+        Destroy(newObstacle,10f);
 
         Debug.Log($"Se generó un obstáculo: {newObstacle.name}");
     }
