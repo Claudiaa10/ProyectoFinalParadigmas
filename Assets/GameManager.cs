@@ -1,19 +1,17 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    public GameOverScreen gameOverScreen;
-    private int world = 1;
-    private int stage = 1;
-    private int lives = 1;
-    private int points = 0;
+
+    private ILevelManager currentLevelManager;
+    private ScoreManager scoreManager;
+    private LifeManager lifeManager;
+    private UIManager uiManager;
 
     private void Awake()
     {
-        Debug.Log("GameManager inicializado.");
         if (Instance != null)
         {
             Destroy(gameObject);
@@ -27,106 +25,161 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Application.targetFrameRate = 60;
-        NewGame();
-    }
+        // Inicializar dependencias
+        scoreManager = FindObjectOfType<ScoreManager>();
+        lifeManager = FindObjectOfType<LifeManager>();
+        uiManager = FindObjectOfType<UIManager>();
 
-    public void NewGame()
-    {
-        points = 0;
-        lives = 1;
-        Debug.Log("Iniciando nueva partida...");
-        if (gameOverScreen != null)
-        {
-            Debug.Log($"Estado actual del Canvas GameOver: {gameOverScreen.gameObject.activeSelf}");
-            gameOverScreen.gameObject.SetActive(false);
-            Debug.Log($"Canvas GameOver desactivado: {gameOverScreen.gameObject.activeSelf}");
-        }
-        Time.timeScale = 1;
-    }
+        // Suscribirse al evento de carga de escenas
+        SceneManager.sceneLoaded += OnSceneLoaded;
 
-    public void GameOver()
-    {
-        Debug.Log("¡Game Over!");
-        Time.timeScale = 0;
-        if (gameOverScreen != null)
-        {
-            gameOverScreen.Setup(points); // Llama a Setup para mostrar la pantalla de Game Over con los puntos
-        }
-    }
-
-    public void AddPoint()
-    {
-        points++;
-        Debug.Log($"Puntos: {points}");
-    }
-
-    public void RemoveLife()
-    {
-        lives--;
-        Debug.Log($"Vidas restantes: {lives}");
-
-        if (lives <= 0)
-        {
-            GameOver();
-        }
+        // Iniciar el juego cargando el primer nivel
+        LoadScene("Scene1");
     }
 
     private void OnEnable()
     {
-        EventManager.PlayerHitHat += HandlePlayerHitHat;
-        EventManager.PlayerHitTeapot += HandlePlayerHitTeapot;
-        EventManager.RestartGame += HandleRestart;
-        Debug.Log("Suscrito a eventos en OnEnable.");
+        EventManager.LevelComplete += HandleLevelComplete;
+        EventManager.RestartGame += RestartGame;
+        EventManager.LifeChanged += HandleLifeChanged;
+        EventManager.GameOver += HandleGameOver;
     }
 
     private void OnDisable()
     {
-        EventManager.PlayerHitHat -= HandlePlayerHitHat;
-        EventManager.PlayerHitTeapot -= HandlePlayerHitTeapot;
-        EventManager.RestartGame -= HandleRestart;
+        EventManager.LevelComplete -= HandleLevelComplete;
+        EventManager.RestartGame -= RestartGame;
+        EventManager.LifeChanged -= HandleLifeChanged;
+
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        EventManager.GameOver -= HandleGameOver;
     }
 
-    private void HandleRestart()
+    private void HandleGameOver()
     {
-        Debug.Log("Restarting");
-        RestartGame();
+        Debug.Log("HandleGameOver llamado. Mostrando pantalla de Game Over...");
+
+        // Asegúrate de que el UIManager esté inicializado
+        if (uiManager == null)
+        {
+            uiManager = FindObjectOfType<UIManager>();
+        }
+
+        if (uiManager != null)
+        {
+            // Obtén la puntuación final (opcional)
+            int finalScore = scoreManager?.CurrentScore ?? 0;
+
+            // Muestra la pantalla de Game Over
+            uiManager.ShowGameOverPanel(finalScore);
+        }
+        else
+        {
+            Debug.LogError("UIManager no encontrado. No se puede mostrar el Game Over.");
+        }
     }
 
-    private void HandlePlayerHitHat()
+    public void LoadScene(string sceneName)
     {
-        Debug.Log("El jugador ha colisionado con un Hat.");
-        RemoveLife();
-    }
-
-    private void HandlePlayerHitTeapot()
-    {
-        Debug.Log("El jugador ha colisionado con un Teapot.");
-        AddPoint();
-    }
-
-    public void RestartGame()
-    {
-        Debug.Log("Reiniciando el juego...");
-        Time.timeScale = 1;
-        SceneManager.sceneLoaded += OnSceneLoaded;
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene(sceneName);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-        gameOverScreen = FindObjectOfType<GameOverScreen>();
-        if (gameOverScreen != null)
+        Debug.Log($"Escena cargada: {scene.name}");
+        InitializeLevel();
+    }
+
+    private void InitializeLevel()
+    {
+        GameObject levelManagerObject = GameObject.FindWithTag("LevelManager");
+        Debug.Log("Hola");
+        if (levelManagerObject != null && levelManagerObject.GetComponent<ILevelManager>() is ILevelManager levelManager)
         {
-            Debug.Log("GameOverScreen reasignado correctamente.");
+            Debug.Log("Adios");
+            currentLevelManager = levelManager;
+
+            if (currentLevelManager is Level1Manager level1Manager)
+            {
+                level1Manager.InitializeScoreManager(scoreManager);
+                level1Manager.InitializeLifeManager(lifeManager);
+            }
+
+            currentLevelManager.StartLevel();
         }
         else
         {
-            Debug.LogError("No se encontró un objeto GameOverScreen en la escena.");
+            Debug.LogError("No se encontró un LevelManager con el tag 'LevelManager'.");
         }
-        NewGame();
+    }
 
-        Debug.Log("Juego reiniciado correctamente.");
+
+
+    public void ContinueToNextLevel()
+    {
+        Debug.Log("Continuando al siguiente nivel...");
+        LoadNextLevel();
+    }
+
+    private void LoadNextLevel()
+    {
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            LoadScene(SceneManager.GetSceneByBuildIndex(nextSceneIndex).name);
+        }
+        else
+        {
+            Debug.Log("No hay más niveles. Reiniciando el juego...");
+            RestartGame();
+        }
+    }
+
+    private void RestartGame()
+    {
+        Debug.Log("Reiniciando el juego...");
+        uiManager?.HideGameOverPanel();
+        uiManager?.ResumeGame();
+        scoreManager?.ResetScore();
+        lifeManager?.ResetLives();
+        LoadScene("Scene1");
+    }
+
+    private void HandleLifeChanged(int remainingLives)
+    {
+        Debug.Log($"Vidas restantes: {remainingLives}");
+        uiManager?.UpdateLives(remainingLives);
+
+        if (remainingLives <= 0)
+        {
+            TriggerGameOver();
+        }
+    }
+
+    private void TriggerGameOver()
+    {
+        Debug.Log("Game Over.");
+        uiManager = FindObjectOfType<UIManager>();
+        if (uiManager != null)
+        {
+            Debug.Log("jaso");
+            int finalScore = scoreManager.CurrentScore;
+            uiManager.ShowGameOverPanel(finalScore);
+        }
+    }
+
+
+    private void HandleLevelComplete()
+    {
+        Debug.Log("Level finished.");
+        uiManager = FindObjectOfType<UIManager>();
+        if (uiManager != null)
+        {
+            string levelName = SceneManager.GetActiveScene().name;
+            uiManager?.ShowLevelCompletePanel(levelName);
+
+
+        }
     }
 }

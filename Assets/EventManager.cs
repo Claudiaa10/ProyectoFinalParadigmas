@@ -12,34 +12,54 @@ public static class EventManager
     public static event UnityAction PlayerSurvivedObstacle;
     public static event UnityAction LevelComplete;
     public static event UnityAction RestartGame;
+    public static event UnityAction<int> ScoreChanged;
+    public static event UnityAction<string> SceneLoaded;
+    public static event UnityAction<int> LifeChanged;
+    public static event UnityAction GameOver;
 
-    // Método para invocar el evento cuando el jugador colisiona con un Hat
     public static void OnPlayerHitHat()
     {
         PlayerHitHat?.Invoke();
     }
 
+    public static void OnSceneLoaded(string sceneName)
+    {
+        SceneLoaded?.Invoke(sceneName);
+    }
     public static void OnRestartGame() 
     { 
         RestartGame?.Invoke();
     }
 
-    // Método para invocar el evento cuando el jugador colisiona con un Teapot
     public static void OnPlayerHitTeapot()
     {
         PlayerHitTeapot?.Invoke();
     }
 
-    // Método para invocar el evento cuando el jugador sobrevive a un obstáculo
+    public static void OnGameOver()
+    {
+        GameOver?.Invoke();
+    }
+
     public static void OnPlayerSurvivedObstacle()
     {
         PlayerSurvivedObstacle?.Invoke();
     }
 
-    // Método para invocar el evento cuando el nivel se completa
+    
     public static void OnLevelComplete()
     {
         LevelComplete?.Invoke();
     }
-}
 
+
+    public static void OnScoreChanged(int newScore)
+    {
+        ScoreChanged?.Invoke(newScore);
+    }
+
+    public static void OnNumberLivesChanged(int nLives)
+    {
+        LifeChanged?.Invoke(nLives);
+    }
+}

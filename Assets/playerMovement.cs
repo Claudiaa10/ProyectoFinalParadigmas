@@ -8,8 +8,8 @@ public class PlayerJump : MonoBehaviour
     public float castDistance; 
     public LayerMask groundLayer;
 
-    private Rigidbody2D body; // Referencia al Rigidbody2D.
-    private bool grounded; // Indica si el jugador está tocando el suelo.
+    private Rigidbody2D body; 
+    private bool grounded;
 
     void Start()
     {
@@ -35,7 +35,6 @@ public class PlayerJump : MonoBehaviour
 
     public bool IsGrounded()
     {
-        // Usa Physics2D.BoxCast para detectar si el jugador está tocando el suelo.
         if (Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer))
         {
             return true;
