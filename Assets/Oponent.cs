@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Oponent : MonoBehaviour
@@ -7,15 +5,26 @@ public class Oponent : MonoBehaviour
     public float speed;
     public Transform player;
     public float minimumDistance;
-    void Update()
+    private void Update()
     {
         if (Vector2.Distance(transform.position, player.position) > minimumDistance)
         {
-            transform.position = Vector2.MoveTowards(transform.position,player.position,speed*Time.deltaTime);
+            MoveTowardsPlayer();
         }
         else
         {
-            // attack code
+            Attack();
         }
+    }
+
+    private void MoveTowardsPlayer()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+    }
+
+    private void Attack()
+    {
+        Debug.Log("Oponente ataca al jugador.");
+        EventManager.OnPlayerAttacked();
     }
 }

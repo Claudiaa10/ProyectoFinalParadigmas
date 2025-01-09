@@ -16,7 +16,17 @@ public static class EventManager
     public static event UnityAction<string> SceneLoaded;
     public static event UnityAction<int> LifeChanged;
     public static event UnityAction GameOver;
+    public static event UnityAction PlayerAttacked;
+    public static event UnityAction NextLevel;
 
+    public static void OnNextLevel()
+    {
+        NextLevel?.Invoke();
+    }
+    public static void OnPlayerAttacked()
+    {
+        PlayerAttacked?.Invoke();
+    }
     public static void OnPlayerHitHat()
     {
         PlayerHitHat?.Invoke();

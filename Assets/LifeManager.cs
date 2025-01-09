@@ -32,4 +32,11 @@ public class LifeManager : MonoBehaviour
         Debug.Log("Vidas reiniciadas.");
         EventManager.OnNumberLivesChanged(currentLives);
     }
+
+    public void ResetLivesToZero()
+    {
+        currentLives = 0; // Establece las vidas en 0
+        Debug.Log("Todas las vidas han sido eliminadas.");
+        EventManager.OnNumberLivesChanged(currentLives); // Notifica el cambio
+    }
 }

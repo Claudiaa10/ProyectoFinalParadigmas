@@ -13256,6 +13256,51 @@ MonoBehaviour:
   speedY: 0
   player: {fileID: 997932562}
   facingRight: 1
+--- !u!1 &1404617743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1404617745}
+  - component: {fileID: 1404617744}
+  m_Layer: 0
+  m_Name: Level3Manager
+  m_TagString: LevelManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1404617744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404617743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427257adfda21234c81bb5292a8f8b95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 1
+--- !u!4 &1404617745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404617743}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 384.12924, y: 117.5194, z: -1.2480317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1412979970
 GameObject:
   m_ObjectHideFlags: 0
@@ -24081,3 +24126,4 @@ SceneRoots:
   - {fileID: 997932567}
   - {fileID: 21649481}
   - {fileID: 430198483}
+  - {fileID: 1404617745}

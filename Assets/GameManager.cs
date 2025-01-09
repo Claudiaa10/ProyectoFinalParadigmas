@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
         EventManager.RestartGame += RestartGame;
         EventManager.LifeChanged += HandleLifeChanged;
         EventManager.GameOver += HandleGameOver;
+        EventManager.NextLevel += HandleNextLevel;
     }
 
     private void OnDisable()
@@ -53,6 +54,7 @@ public class GameManager : MonoBehaviour
 
         SceneManager.sceneLoaded -= OnSceneLoaded;
         EventManager.GameOver -= HandleGameOver;
+        EventManager.NextLevel -= HandleNextLevel;
     }
 
     private void HandleGameOver()
@@ -91,7 +93,9 @@ public class GameManager : MonoBehaviour
     }
 
     private void InitializeLevel()
+
     {
+        Time.timeScale = 1;
         GameObject levelManagerObject = GameObject.FindWithTag("LevelManager");
         Debug.Log("Hola");
         if (levelManagerObject != null && levelManagerObject.GetComponent<ILevelManager>() is ILevelManager levelManager)
@@ -104,8 +108,14 @@ public class GameManager : MonoBehaviour
                 level1Manager.InitializeScoreManager(scoreManager);
                 level1Manager.InitializeLifeManager(lifeManager);
             }
+            else if (currentLevelManager is Level3Manager level3Manager)
+            {
+                level3Manager.InitializeScoreManager(scoreManager);
+                level3Manager.InitializeLifeManager(lifeManager);
+            }
 
             currentLevelManager.StartLevel();
+
         }
         else
         {
@@ -115,7 +125,7 @@ public class GameManager : MonoBehaviour
 
 
 
-    public void ContinueToNextLevel()
+    public void HandleNextLevel()
     {
         Debug.Log("Continuando al siguiente nivel...");
         LoadNextLevel();
@@ -123,11 +133,17 @@ public class GameManager : MonoBehaviour
 
     private void LoadNextLevel()
     {
-        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex; // Índice actual de la escena
+        int nextSceneIndex = currentSceneIndex + 1; // Calcula el índice de la próxima escena
+
+        Debug.Log($"Current Scene Index: {currentSceneIndex}");
+        Debug.Log($"Next Scene Index: {nextSceneIndex}");
+        Debug.Log($"Total Scenes in Build Settings: {SceneManager.sceneCountInBuildSettings}");
 
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
-            LoadScene(SceneManager.GetSceneByBuildIndex(nextSceneIndex).name);
+            SceneManager.LoadScene(nextSceneIndex);
+         
         }
         else
         {
@@ -135,6 +151,7 @@ public class GameManager : MonoBehaviour
             RestartGame();
         }
     }
+
 
     private void RestartGame()
     {
@@ -168,6 +185,7 @@ public class GameManager : MonoBehaviour
             uiManager.ShowGameOverPanel(finalScore);
         }
     }
+
 
 
     private void HandleLevelComplete()

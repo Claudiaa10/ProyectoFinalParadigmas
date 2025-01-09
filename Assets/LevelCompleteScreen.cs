@@ -27,7 +27,7 @@ public class LevelCompleteScreen : MonoBehaviour
     public void ContinueButton()
     {
         Debug.Log("Continuando al siguiente nivel...");
-        EventManager.OnLevelComplete(); // Llama al evento para avanzar al siguiente nivel
+        EventManager.OnNextLevel(); // Llama al evento para avanzar al siguiente nivel
     }
 
     public void ExitButton()

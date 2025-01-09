@@ -933,7 +933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 0
-  timeRemaining: 20
+  timeRemaining: 10
 --- !u!4 &785456509
 Transform:
   m_ObjectHideFlags: 0
