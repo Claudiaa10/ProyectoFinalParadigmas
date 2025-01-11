@@ -1,0 +1,1770 @@
+fileFormatVersion: 2
+guid: 9fa6d641191f044419c16fa01b9401d5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 588
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc73aa9a36e21b469dec2df8b1e6fa7
+      internalID: 1521891196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 588.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5ce9ff4592de94986b371b568e55a0
+      internalID: -2280384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 588.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8266b728ebab464b90c385ee73787cc
+      internalID: 1350288160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 588.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9683b1aed1aae6140becaaa488f55621
+      internalID: 1611598896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 588.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da987bd63bebde45bd51e3d9e57a308
+      internalID: -1772590032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 588.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08c6e62329bca340901bfe065598199
+      internalID: 1243005531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 588.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e391d6b60713999409b64de07beba7e0
+      internalID: 734332865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 588.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19be0fc5944ccb54898d75f19eb51604
+      internalID: 727039109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_8
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 588.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecf1fedaff794d4d951fe087195007a
+      internalID: 1687233777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 523.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2660baf38245e5c4991fb7e7886e5914
+      internalID: -1764458337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 523.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c431ba20368f7854eace4b2e1e7a4edb
+      internalID: 766317720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 523.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9acc49aff577845862f0b4d0afdcbf
+      internalID: 1208733905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 523.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763ad8b0e31673445a1589115b5af437
+      internalID: -646030303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 523.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca8793efaf29ae4e9d1a1baf337cd33
+      internalID: -798413567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28420fc427fd442499c6d2ec5af1d5bd
+      internalID: -434120392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243f7b4990010e54da2bf28ce968a032
+      internalID: -1891835444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721c4c27e1d5b7d418d7b24801f2caa2
+      internalID: 1468466608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0edf791ad823e74da517672cb13d551
+      internalID: -1054662675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f911fbfb46fa5ab4d9133af21a9fed86
+      internalID: 98362175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_19
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccf247531caf334295bd36d688e56a3
+      internalID: 916515689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0e72b1fa36a63429be54e9aac5ac5d
+      internalID: 1713330188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_21
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c96d1389d3b704c87d5562883f5252
+      internalID: 893404524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_22
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 458.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a3f0ca8a5e74044a467ad44bc55c35
+      internalID: 2053295118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7473779c3fa753146b82951463293a38
+      internalID: -599137456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 393.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a30d5f8a185db409dda6fa41780ef9
+      internalID: -467830211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 393.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bad7f9503a078143b828f02fdb2b047
+      internalID: 302209229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_26
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 393.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fd62c6dd7e71f46a6f5b3c3d82ae5c
+      internalID: -1938299022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_27
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 393.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61568c5df83572c4fa50a33ded38943b
+      internalID: -1874697708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_28
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 393.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cf9c3a8d35cf241be76f29963506be
+      internalID: -1164350365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 328.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1fbacbfb1aec5439cfe09e9f7d4c31
+      internalID: -668942760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 328.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e477230d5a3e0c4d8ae525558b5b606
+      internalID: 938990024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 328.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda5ae14ba0e0424fa60706fbb456a91
+      internalID: 2043279546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_32
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 328.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16783ef2aa998564495469613814f3bf
+      internalID: -431800896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_33
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 328.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49e4b77fe86ab54b833f058cac55d71
+      internalID: 1628455002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_34
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 328.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bc9cc2caed4154fb9b825bb0933946
+      internalID: -1104755629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_35
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 328.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcd84b4649953144be19e273c201a55
+      internalID: 1280037278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_36
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 328.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43611a8b77c67304bad5356230028d7e
+      internalID: 1740168687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 263.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12f3d20acb379e45888164b7a8f78fb
+      internalID: 110340003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 263.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd95f41cf691d3f4e84d1747524bb501
+      internalID: 1302924597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 263.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f08536269e3d34d9dbca560c145cae
+      internalID: 533093640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_40
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 263.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d78762e71dcf34e981ec6ac6a28b10
+      internalID: -1620322317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_41
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 263.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb185feb8ea3efb44a3d37bdf6eb9da7
+      internalID: -704126448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_42
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 263.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3376e8969073d1c4285b4af1496cf12f
+      internalID: -1774578016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_43
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 263.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f506a23cea3d3f647a0f1ff8977e2a29
+      internalID: -1479219553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 198.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dc4aed73197dd4ca728a0e499725a3
+      internalID: 491098396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 198.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4813230080db21c499cafdca4eea2948
+      internalID: -1852448395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 198.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb45ad5434da0f40925aad101e87368
+      internalID: 1319033299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 198.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033f416c262cf154683d320c05e0c77c
+      internalID: -1570280916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_48
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 198.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5b28efe01e9541a829555c8b159f4
+      internalID: 509991820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_49
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 198.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b0d562aa8af0a499b174026c01e2aa
+      internalID: -393483803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bf39cfaa4d1924b938bcea3e29ee7e
+      internalID: -174971169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bc1d51529bdf14ea71507f88c3d370
+      internalID: 628689473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_52
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5fcc8afb4aecd4b998bfeb97d4f8b1
+      internalID: 978067274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_53
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f7e289d03efb248ad6e39015b447f4
+      internalID: -1946054429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_54
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f513ea9bcfafe06408f052e974511352
+      internalID: 982111040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_55
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48319a632f6eac47adf8119d6e05891
+      internalID: 515392310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_56
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5b42ce423a2364d9963568c45d29a3
+      internalID: 1149304150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_57
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579c94c51a02594468f440defb707775
+      internalID: -1515489631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_58
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 133.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f450bf1dcc0946242b6db3c1caf10157
+      internalID: 1084498257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 68.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46af1e174db41b41927f56148726321
+      internalID: 1553296545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 68.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba50ea801fba034b9db32208cf3a45a
+      internalID: 322039134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_61
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 68.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb5d9b9304cea04a9ecd921a73ed198
+      internalID: 157611691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_62
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 68.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735b4ac1c24d27941ac4dc859d097ee0
+      internalID: 1919711627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_63
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 68.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e852ae9202efde4fa604ab907844730
+      internalID: 2027966468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_64
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 68.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c10e2578730df45b558fd3ca023c94
+      internalID: -243178965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_65
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 68.6
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd51dc2c648c3b14495cd66ed4c8ee7a
+      internalID: -427157130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3.5999985
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7a61f86f04b314db37d3afc55924e7
+      internalID: 821002213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_67
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3.5999985
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57701334c13addf488ce14aaa640ac01
+      internalID: 2046296167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_68
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3.5999985
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf089e9a418fcd043828f9d2b0ad1631
+      internalID: -1437325644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_69
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 3.5999985
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b176f21578569d84ab3eb9187bfde25b
+      internalID: -1909787283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_70
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 3.5999985
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3491855ea69abee45827c4a3d83e11d4
+      internalID: -1878525263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald
+        Duck - Wonderland Enemies_71
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 3.5999985
+        width: 49.666668
+        height: 65.4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aedca46928757040a39aab89cc84b59
+      internalID: 1575405303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_0: 1521891196
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_1: -2280384
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_10: 766317720
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_11: 1208733905
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_12: -646030303
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_13: -798413567
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_14: -434120392
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_15: -1891835444
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_16: 1468466608
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_17: -1054662675
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_18: 98362175
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_19: 916515689
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_2: 1350288160
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_20: 1713330188
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_21: 893404524
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_22: 2053295118
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_23: -599137456
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_24: -467830211
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_25: 302209229
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_26: -1938299022
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_27: -1874697708
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_28: -1164350365
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_29: -668942760
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_3: 1611598896
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_30: 938990024
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_31: 2043279546
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_32: -431800896
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_33: 1628455002
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_34: -1104755629
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_35: 1280037278
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_36: 1740168687
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_37: 110340003
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_38: 1302924597
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_39: 533093640
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_4: -1772590032
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_40: -1620322317
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_41: -704126448
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_42: -1774578016
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_43: -1479219553
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_44: 491098396
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_45: -1852448395
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_46: 1319033299
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_47: -1570280916
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_48: 509991820
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_49: -393483803
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_5: 1243005531
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_50: -174971169
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_51: 628689473
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_52: 978067274
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_53: -1946054429
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_54: 982111040
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_55: 515392310
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_56: 1149304150
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_57: -1515489631
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_58: 1084498257
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_59: 1553296545
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_6: 734332865
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_60: 322039134
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_61: 157611691
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_62: 1919711627
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_63: 2027966468
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_64: -243178965
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_65: -427157130
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_66: 821002213
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_67: 2046296167
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_68: -1437325644
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_69: -1909787283
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_7: 727039109
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_70: -1878525263
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_71: 1575405303
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_8: 1687233777
+      Sega Genesis 32X - World of Illusion Starring Mickey Mouse and Donald Duck - Wonderland Enemies_9: -1764458337
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
