@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Key"))
         {
-            Debug.Log("¡El jugador ha colisionado con una tetera!");
+            Debug.Log("¡El jugador ha colisionado con una llave!");
             Destroy(other.gameObject);
             EventManager.OnPlayerHitKey();
         }
