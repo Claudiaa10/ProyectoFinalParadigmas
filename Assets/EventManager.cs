@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public static class EventManager
 {
-    // Eventos estáticos que otros scripts pueden suscribirse
+    
     public static event UnityAction PlayerHitHat;
     public static event UnityAction PlayerHitTeapot;
     public static event UnityAction PlayerSurvivedObstacle;

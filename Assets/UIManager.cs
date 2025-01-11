@@ -16,19 +16,19 @@ public class UIManager : MonoBehaviour
         if (livesText == null)
         {
             livesText = FindObjectOfType<TextMeshProUGUI>();
-            Debug.LogWarning("LivesText no estaba asignado. Se buscó en la escena.");
+            Debug.LogWarning("LivesText no estaba asignado. Se buscÃ³ en la escena.");
         }
 
         if (gameOverScreen == null)
         {
             gameOverScreen = FindObjectOfType<GameOverScreen>();
-            Debug.LogWarning("GameOverScreen no estaba asignado. Se buscó en la escena.");
+            Debug.LogWarning("GameOverScreen no estaba asignado. Se buscÃ³ en la escena.");
         }
 
         if (levelCompleteScreen == null)
         {
             levelCompleteScreen = FindObjectOfType<LevelCompleteScreen>();
-            Debug.LogWarning("LevelCompleteScreen no estaba asignado. Se buscó en la escena.");
+            Debug.LogWarning("LevelCompleteScreen no estaba asignado. Se buscÃ³ en la escena.");
         }
 
         if (gameOverScreen != null) {
@@ -48,7 +48,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    // Muestra el panel de Game Over y actualiza la puntuación final
+    // Muestra el panel de Game Over y actualiza la puntuaciÃ³n final
     public void ShowGameOverPanel(int finalScore)
 
     {
@@ -63,6 +63,7 @@ public class UIManager : MonoBehaviour
     // Oculta el panel de Game Over
     public void HideGameOverPanel()
     {
+
         Debug.Log("ocultando pantalla");
         if (gameOverScreen != null)
         {
@@ -83,6 +84,7 @@ public class UIManager : MonoBehaviour
     // Oculta el panel de nivel completado
     public void HideLevelCompletePanel()
     {
+
         Debug.Log("ocultando pantalla");
         if (levelCompleteScreen != null)
         {

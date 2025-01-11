@@ -15,6 +15,7 @@ public class Level3PlayerMovement : MonoBehaviour
     }
 
     void Update()
+
     { 
         speedX = Input.GetAxisRaw("Horizontal") * speed;
         speedY = Input.GetAxisRaw("Vertical") * speed;

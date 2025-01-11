@@ -6,25 +6,24 @@ using TMPro;
 
 public class GameOverScreen : MonoBehaviour
 {
+
     public TextMeshProUGUI pointsText;
+
 
     public void Setup(int points)
     {
         Debug.Log("GameOverScreen: Activando el objeto y configurando puntos.");
-
-        // Activa el objeto `GameOver`
+        
         gameObject.SetActive(true);
-
-        // Verifica si el texto de los puntos est· configurado
         if (pointsText != null)
         {
-            // Actualiza el texto de los puntos
             pointsText.text = points.ToString() + " POINTS";
             Debug.Log($"GameOverScreen: Texto de puntos actualizado a {points} POINTS.");
         }
         else
         {
-            Debug.LogWarning("GameOverScreen: `pointsText` no est· asignado. Los puntos no se mostrar·n.");
+
+            Debug.LogWarning("GameOverScreen: `pointsText` no est√° asignado. Los puntos no se mostrar√°n.");
         }
     }
 
@@ -36,7 +35,9 @@ public class GameOverScreen : MonoBehaviour
 
     public void ExitButton()
     {
+
         Debug.Log("ExitButton presionado. Cargando MainMenu.");
         SceneManager.LoadScene("MainMenu");
     }
 }
+

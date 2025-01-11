@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -51,13 +52,11 @@ public class AliceMovement : MonoBehaviour
 
     void CheckGround()
     {
-        // Verificar si el personaje está en el suelo
         grounded = Physics2D.OverlapAreaAll(groundCheck.bounds.min, groundCheck.bounds.max).Length > 0;
     }
 
     void ApplyFriction()
     {
-        // Aplicar fricción si está en el suelo y no se mueve
         if (grounded && verticalMove == 0)
         {
             body.velocity = new Vector2(body.velocity.x, body.velocity.y * groundDecay);

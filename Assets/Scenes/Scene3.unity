@@ -246,7 +246,9 @@ MonoBehaviour:
   speed: 1
   player: {fileID: 997932567}
   minimumDistance: 1
+
   isGameOver: 0
+
 --- !u!50 &21649485
 Rigidbody2D:
   serializedVersion: 4
@@ -472,6 +474,7 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+
 --- !u!1 &118405468
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +791,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261294788}
   m_CullTransparentMesh: 1
+
 --- !u!1 &362881387
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,10 +802,12 @@ GameObject:
   m_Component:
   - component: {fileID: 362881389}
   - component: {fileID: 362881388}
+
   - component: {fileID: 362881390}
   m_Layer: 0
   m_Name: Key
   m_TagString: Key
+
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -846,7 +852,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+
   m_SortingOrder: 4
+
   m_Sprite: {fileID: -1195431905, guid: b5fd217e254d5b84db32d0f0acee9dfa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -873,6 +881,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!61 &362881390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -918,6 +927,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.09463085}
   m_EdgeRadius: 0
+
 --- !u!1 &430198481
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +977,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!1 &671184598
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -975,22 +987,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+
   - component: {fileID: 671184599}
   - component: {fileID: 671184601}
   - component: {fileID: 671184600}
   m_Layer: 5
   m_Name: Text (TMP)
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!224 &671184599
 RectTransform:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 671184598}
   m_LocalRotation: {x: 0.026520217, y: -0.015538255, z: -0.00024413911, w: 0.99952745}
   m_LocalPosition: {x: 0, y: 0, z: -13}
@@ -1006,10 +1023,12 @@ RectTransform:
   m_Pivot: {x: 0.50000006, y: 0.4999999}
 --- !u!114 &671184600
 MonoBehaviour:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 671184598}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1128,6 +1147,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 701087068}
   m_Enabled: 1
   m_CastShadows: 1
@@ -1138,11 +1158,14 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+
   - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1155,7 +1178,9 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
+
   m_SelectedEditorRenderState: 3
+
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -1163,6 +1188,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!222 &701087070
 CanvasRenderer:
@@ -1214,10 +1240,12 @@ MonoBehaviour:
   m_PresetInfoIsWorld: 0
 --- !u!223 &701087073
 Canvas:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 701087068}
   m_Enabled: 1
   serializedVersion: 3
@@ -13723,7 +13751,9 @@ GameObject:
   - component: {fileID: 997932568}
   - component: {fileID: 997932563}
   - component: {fileID: 997932562}
+
   - component: {fileID: 997932569}
+
   m_Layer: 12
   m_Name: Alice
   m_TagString: Player
@@ -13908,6 +13938,7 @@ MonoBehaviour:
   speedY: 0
   player: {fileID: 997932562}
   facingRight: 1
+
 --- !u!114 &997932569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14121,6 +14152,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286691510}
   m_CullTransparentMesh: 1
+
 --- !u!1 &1404617743
 GameObject:
   m_ObjectHideFlags: 0
@@ -14160,6 +14192,7 @@ Transform:
   m_GameObject: {fileID: 1404617743}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+
   m_LocalPosition: {x: 384.12924, y: 117.5194, z: -1.2480317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14839,10 +14872,13 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1707303649
 MonoBehaviour:
+
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 1707303647}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14895,10 +14931,12 @@ MonoBehaviour:
         m_CallState: 2
 --- !u!114 &1707303650
 MonoBehaviour:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 1707303647}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14925,12 +14963,15 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1707303651
 CanvasRenderer:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 1707303647}
   m_CullTransparentMesh: 1
+
 --- !u!1 &1846269038
 GameObject:
   m_ObjectHideFlags: 0
@@ -25700,6 +25741,7 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+
 --- !u!1 &1897441773
 GameObject:
   m_ObjectHideFlags: 0
@@ -26255,6 +26297,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -26266,7 +26309,9 @@ SceneRoots:
   - {fileID: 21649481}
   - {fileID: 430198483}
   - {fileID: 1404617745}
+
   - {fileID: 701087074}
   - {fileID: 2101689959}
   - {fileID: 160837883}
   - {fileID: 1109415210}
+
