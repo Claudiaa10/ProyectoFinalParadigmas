@@ -24,11 +24,13 @@ public class Level3Manager : MonoBehaviour, ILevelManager
         this.lifeManager = lifeManager;
         if (this.lifeManager == null)
         {
-            Debug.LogError("lifeManager no inicializado en Level1Manager.");
+
+            Debug.LogError("lifeManager no inicializado en Level3Manager.");
         }
         else
         {
-            Debug.Log("lifeManager inicializado correctamente en Level1Manager.");
+            Debug.Log("lifeManager inicializado correctamente en Level3Manager.");
+
         }
     }
 
@@ -36,13 +38,16 @@ public class Level3Manager : MonoBehaviour, ILevelManager
     {
         if (scoreManager == null || lifeManager == null)
         {
-            Debug.LogError("scoreManager o lifeManager no est·n inicializados. No se puede iniciar el nivel.");
+            Debug.LogError("scoreManager o lifeManager no est√°n inicializados. No se puede iniciar el nivel.");
             return;
         }
 
         scoreManager.ResetScore();
         lifeManager.ResetLives();
         isGameOver = false;
+
+        Debug.Log(isGameOver);
+
         levelCompleted = false;
 
         Debug.Log("Nivel 3 iniciado correctamente.");
@@ -66,13 +71,16 @@ public class Level3Manager : MonoBehaviour, ILevelManager
 
     private void OnDisable()
     {
-        EventManager.PlayerHitHat -= HandlePlayerHitKey;
+
+        EventManager.PlayerHitKey -= HandlePlayerHitKey;
         EventManager.PlayerAttacked -= HandlePlayerAttacked;
     }
 
     private void OnEnable()
     {
-        EventManager.PlayerHitHat += HandlePlayerHitKey;
+
+        EventManager.PlayerHitKey += HandlePlayerHitKey;
+
         EventManager.PlayerAttacked += HandlePlayerAttacked;
     
     }
