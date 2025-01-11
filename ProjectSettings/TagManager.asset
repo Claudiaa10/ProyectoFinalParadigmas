@@ -10,22 +10,21 @@ TagManager:
   - Ground
   - LevelManager
   - Key
-
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - player
+  - 
   - Water
   - UI
   - Ground
-  - cloud
-  - 
-  - 
-  - 
-  - Oponent
   - alice
   - filter
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
