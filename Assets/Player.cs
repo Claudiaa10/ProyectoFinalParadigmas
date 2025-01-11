@@ -17,6 +17,12 @@ public class Player : MonoBehaviour
             Debug.Log("tetera destruida");
             EventManager.OnPlayerHitTeapot();
         }
+        if (other.CompareTag("Key"))
+        {
+            Debug.Log("¡El jugador ha colisionado con una tetera!");
+            Destroy(other.gameObject);
+            EventManager.OnPlayerHitKey();
+        }
 
     } 
 }

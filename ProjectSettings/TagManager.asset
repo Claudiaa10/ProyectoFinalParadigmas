@@ -9,6 +9,7 @@ TagManager:
   - Teapot
   - Ground
   - LevelManager
+  - Key
   layers:
   - Default
   - TransparentFX

@@ -15,14 +15,10 @@ public class Level3PlayerMovement : MonoBehaviour
     }
 
     void Update()
-    {
-        Debug.Log(Time.timeScale);
+    { 
         speedX = Input.GetAxisRaw("Horizontal") * speed;
         speedY = Input.GetAxisRaw("Vertical") * speed;
-        Debug.Log($"speedX: {speedX}, speedY: {speedY}");
-
         player.velocity = new Vector2 (speedX, speedY);
-        Debug.Log(player.velocity);
 
         if (speedX > 0 && !facingRight)
         {

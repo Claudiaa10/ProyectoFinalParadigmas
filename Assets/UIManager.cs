@@ -63,6 +63,7 @@ public class UIManager : MonoBehaviour
     // Oculta el panel de Game Over
     public void HideGameOverPanel()
     {
+        Debug.Log("ocultando pantalla");
         if (gameOverScreen != null)
         {
             gameOverScreen.gameObject.SetActive(false);
@@ -82,6 +83,7 @@ public class UIManager : MonoBehaviour
     // Oculta el panel de nivel completado
     public void HideLevelCompletePanel()
     {
+        Debug.Log("ocultando pantalla");
         if (levelCompleteScreen != null)
         {
             levelCompleteScreen.gameObject.SetActive(false);

@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
         EventManager.LifeChanged += HandleLifeChanged;
         EventManager.GameOver += HandleGameOver;
         EventManager.NextLevel += HandleNextLevel;
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     private void OnDisable()
@@ -89,18 +90,25 @@ public class GameManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         Debug.Log($"Escena cargada: {scene.name}");
+
+        // Reinicializa el UIManager en caso de que sea un nuevo objeto en la escena
+        uiManager = FindObjectOfType<UIManager>();
+
+        // Oculta cualquier panel que pueda haber quedado visible
+        uiManager?.HideLevelCompletePanel();
+        uiManager?.HideGameOverPanel();
+
+        // Inicializa el nivel actual
         InitializeLevel();
     }
 
     private void InitializeLevel()
-
     {
         Time.timeScale = 1;
         GameObject levelManagerObject = GameObject.FindWithTag("LevelManager");
-        Debug.Log("Hola");
+
         if (levelManagerObject != null && levelManagerObject.GetComponent<ILevelManager>() is ILevelManager levelManager)
         {
-            Debug.Log("Adios");
             currentLevelManager = levelManager;
 
             if (currentLevelManager is Level1Manager level1Manager)
@@ -115,7 +123,6 @@ public class GameManager : MonoBehaviour
             }
 
             currentLevelManager.StartLevel();
-
         }
         else
         {
@@ -123,11 +130,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-
     public void HandleNextLevel()
     {
         Debug.Log("Continuando al siguiente nivel...");
+
+        // Asegúrate de que el UIManager está inicializado y oculta los paneles ANTES de cargar la nueva escena
+        if (uiManager == null)
+        {
+            uiManager = FindObjectOfType<UIManager>();
+        }
+        uiManager?.HideLevelCompletePanel();
+        uiManager?.HideGameOverPanel();
+
+        // Carga el siguiente nivel
         LoadNextLevel();
     }
 
@@ -136,14 +151,10 @@ public class GameManager : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex; // Índice actual de la escena
         int nextSceneIndex = currentSceneIndex + 1; // Calcula el índice de la próxima escena
 
-        Debug.Log($"Current Scene Index: {currentSceneIndex}");
-        Debug.Log($"Next Scene Index: {nextSceneIndex}");
-        Debug.Log($"Total Scenes in Build Settings: {SceneManager.sceneCountInBuildSettings}");
-
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-        {
-            SceneManager.LoadScene(nextSceneIndex);
-         
+        {   
+            currentSceneIndex = nextSceneIndex; 
+            SceneManager.LoadScene(currentSceneIndex);
         }
         else
         {
@@ -152,15 +163,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
     private void RestartGame()
     {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        Debug.Log(currentSceneIndex);
         Debug.Log("Reiniciando el juego...");
         uiManager?.HideGameOverPanel();
         uiManager?.ResumeGame();
         scoreManager?.ResetScore();
         lifeManager?.ResetLives();
-        LoadScene("Scene1");
+        SceneManager.LoadScene(currentSceneIndex);
     }
 
     private void HandleLifeChanged(int remainingLives)
@@ -180,24 +192,19 @@ public class GameManager : MonoBehaviour
         uiManager = FindObjectOfType<UIManager>();
         if (uiManager != null)
         {
-            Debug.Log("jaso");
             int finalScore = scoreManager.CurrentScore;
             uiManager.ShowGameOverPanel(finalScore);
         }
     }
 
-
-
     private void HandleLevelComplete()
     {
-        Debug.Log("Level finished.");
+        Debug.Log("Nivel completado.");
         uiManager = FindObjectOfType<UIManager>();
         if (uiManager != null)
         {
             string levelName = SceneManager.GetActiveScene().name;
-            uiManager?.ShowLevelCompletePanel(levelName);
-
-
+            uiManager.ShowLevelCompletePanel(levelName);
         }
     }
 }

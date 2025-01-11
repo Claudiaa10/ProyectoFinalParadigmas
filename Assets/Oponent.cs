@@ -5,15 +5,25 @@ public class Oponent : MonoBehaviour
     public float speed;
     public Transform player;
     public float minimumDistance;
+    public bool isGameOver;
+
+    private void Start()
+    {
+        isGameOver = false;
+    }
     private void Update()
     {
-        if (Vector2.Distance(transform.position, player.position) > minimumDistance)
+        if (!isGameOver)
         {
-            MoveTowardsPlayer();
-        }
-        else
-        {
-            Attack();
+            if (Vector2.Distance(transform.position, player.position) > minimumDistance)
+            {
+                MoveTowardsPlayer();
+            }
+            else
+            {
+                Debug.Log("ataca");
+                Attack();
+            }
         }
     }
 
@@ -25,6 +35,7 @@ public class Oponent : MonoBehaviour
     private void Attack()
     {
         Debug.Log("Oponente ataca al jugador.");
+        isGameOver = true;
         EventManager.OnPlayerAttacked();
     }
 }
