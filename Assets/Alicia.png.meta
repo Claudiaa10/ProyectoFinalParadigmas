@@ -1,0 +1,1854 @@
+fileFormatVersion: 2
+guid: 2b472f833987e4df982ba6980c75c718
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alicia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace6ee757e1d04d4ca90b1419596bfec
+      internalID: -189793744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f872b20ce9eb4a83995b461b7f09606
+      internalID: -2083026654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52264e53a2f75404c988901c79cbb2ad
+      internalID: -1669233760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d4e95db6efb47eca55767a0d4f7df1
+      internalID: 1676813538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9fd841198744f47b8ede089a4fc61c
+      internalID: 969502637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dca2c838542641b1af9b3f4646c74d7
+      internalID: 894219128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e5dfbfdbc274d319ca6f1402085bbe
+      internalID: -1969478241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b8ef5436cc640009f949cacb0d4822
+      internalID: -40622144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283f5e17ae7c04097b31ddb6c62b7cda
+      internalID: 757496759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7d8361f7f554213b4177e74890bb33
+      internalID: 1603767038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7d42dfc5aca41978688e74788b3e4f
+      internalID: 899873572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5e1da514de542c680580cfe7fa42ed
+      internalID: -1354154806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_12
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc6d6b08c5654305b50c2628237a3ba
+      internalID: -1923226709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad3a1afe6c3b4d55b7e373431985770
+      internalID: 631314440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4583db9bb83e341d98015c0bb3985883
+      internalID: -233104071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04571e2a4fc8e47de9699a0f18278483
+      internalID: 841717747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e97fbc45d9a4901ac8450d9c984210
+      internalID: -870563879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b812e3fe70149898bdca8f242c3b8f
+      internalID: -286316112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2d17ef7347442b29fa7a7d5a06dbbf
+      internalID: 2020264033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986bcb78f3a6f42568f7286ba86b357b
+      internalID: -349180674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8989178c41e4d87b045cdd274e53f1
+      internalID: 905502998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f818bf6113574e5da255a8e47fe02fa
+      internalID: 1255755271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73bdcc6414fa4510acb6db2a62bbf09
+      internalID: 912889746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b43812ccf1fd4ba2bcd418e397d76bf
+      internalID: 1245087756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b827f3071ac44c9db8fdc6450a90253
+      internalID: 2128751373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6773ed70aec54947ae6981f7f2cb4b0
+      internalID: 1402768942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0109578e234114959ab08f405bea8942
+      internalID: -349152638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f928c7aa74540e8924c4a81a2faa60
+      internalID: -276459974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3b5dfb95cba4ec4a3dfb74beb9a885
+      internalID: 1447550856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a525dee00919c412da44ef634bc136b0
+      internalID: 1171590783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3183f0e23bd476abae5504da4eedc5
+      internalID: 442210511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491f0d871098642b18afeda0dfadd215
+      internalID: -1188667843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f7036f21a76422b869c357b5dc84b4
+      internalID: -515558018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379091b0165884f6d952a21926f7e7b4
+      internalID: -694533851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6359616cc6541a8b530bee6f3eb4ce
+      internalID: 720449636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c734de45d984f54a9e349da6afb3f7
+      internalID: 72214479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04572b51bde09451a98453d1afc32294
+      internalID: -265957509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51940b442be764dbb8f15d082742fb4b
+      internalID: -1837905362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36e06325db04434fb14db42f41b0131
+      internalID: 1874380219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02483054df7a4d42b2f83dea0823f89
+      internalID: -1808580763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ad7bf0f095747eaade106a9034deaa
+      internalID: 938103637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863d443913e4d48e29769660d6c9f62c
+      internalID: -981866714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6af9ed14df0d47789450c5c8b8787d9
+      internalID: -2052927083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6e21da930a44e61b0f00500a04c79f
+      internalID: 1936130383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daec1cdfd35f4828bfbbc295c8db652
+      internalID: -1574175376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d841526e2784402b86b4e605207d156
+      internalID: -671614480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313287d6a61ad4ed7925984345ffb75e
+      internalID: 609411778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc8bcbb492b54f03b3cd079648f8d27
+      internalID: -1132723136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_48
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650f917d5bb5148ee9efbe4753b2966c
+      internalID: -1958221176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c319eb5b7ab40168815e652b207a06
+      internalID: -1174176474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_50
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b249f3e226f453485f9777a54746a6
+      internalID: 983808507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59ccff22320497e91690fd6509e587
+      internalID: 2032374480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020cf60b8594e4f6697204d4e15656e6
+      internalID: 214363560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b193a6742e64281959fd6c09f61f00
+      internalID: -402820261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2026bd2816d649c8bd84168bbc819f1
+      internalID: -2044447776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3117ffe7d69024052b9e2e843d9db276
+      internalID: 1136967859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_56
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cecbfb43b6414ed18e8134a54121d10
+      internalID: -1013670330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alicia_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9533c493d7ed04d1b8280abfd721dae7
+      internalID: -589245302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Alicia_0: -189793744
+      Alicia_1: -2083026654
+      Alicia_10: 899873572
+      Alicia_11: -1354154806
+      Alicia_12: -1923226709
+      Alicia_13: 631314440
+      Alicia_14: -233104071
+      Alicia_15: 841717747
+      Alicia_16: -870563879
+      Alicia_17: -286316112
+      Alicia_18: 2020264033
+      Alicia_19: -349180674
+      Alicia_2: -1669233760
+      Alicia_20: 905502998
+      Alicia_21: 1255755271
+      Alicia_22: 912889746
+      Alicia_23: 1245087756
+      Alicia_24: 2128751373
+      Alicia_25: 1402768942
+      Alicia_26: -349152638
+      Alicia_27: -276459974
+      Alicia_28: 1447550856
+      Alicia_29: 1171590783
+      Alicia_3: 1676813538
+      Alicia_30: 442210511
+      Alicia_31: -1188667843
+      Alicia_32: -515558018
+      Alicia_33: -694533851
+      Alicia_34: 720449636
+      Alicia_35: 72214479
+      Alicia_36: -265957509
+      Alicia_37: -1837905362
+      Alicia_38: 1874380219
+      Alicia_39: -1808580763
+      Alicia_4: 969502637
+      Alicia_40: 938103637
+      Alicia_41: -981866714
+      Alicia_42: -2052927083
+      Alicia_43: 1936130383
+      Alicia_44: -1574175376
+      Alicia_45: -671614480
+      Alicia_46: 609411778
+      Alicia_47: -1132723136
+      Alicia_48: -1958221176
+      Alicia_49: -1174176474
+      Alicia_5: 894219128
+      Alicia_50: 983808507
+      Alicia_51: 2032374480
+      Alicia_52: 214363560
+      Alicia_53: -402820261
+      Alicia_54: -2044447776
+      Alicia_55: 1136967859
+      Alicia_56: -1013670330
+      Alicia_57: -589245302
+      Alicia_6: -1969478241
+      Alicia_7: -40622144
+      Alicia_8: 757496759
+      Alicia_9: 1603767038
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
