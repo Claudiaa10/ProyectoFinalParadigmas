@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("UIManager no encontrado. No se puede mostrar el Game Over.");
+            Debug.Log("UIManager no encontrado. No se puede mostrar el Game Over.");
         }
     }
 
@@ -122,7 +122,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("No se encontró un LevelManager con el tag 'LevelManager'.");
+            Debug.Log("No se encontró un LevelManager con el tag 'LevelManager'.");
         }
     }
 
